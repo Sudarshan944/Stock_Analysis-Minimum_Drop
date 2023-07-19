@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock Prediction and News Analysis</title>
+</head>
+
+<body>
+    <h1>Stock Prediction and News Analysis</h1>
+    <form action="/predict" method="post">
+        <label for="stock_symbol">Stock Symbol:</label>
+        <input type="text" id="stock_symbol" name="stock_symbol" required><br><br>
+
+        <label for="news_text">News Text:</label><br>
+        <textarea id="news_text" name="news_text" rows="5" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+
+</html>
